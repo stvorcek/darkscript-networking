@@ -6,7 +6,7 @@ import dastNetwork.HandleNetwork
 let{
   networkname="YOUR NETWORK NAME HERE";
   networkpass="NETWORK PASSWORD HERE";
-  networkip=generateLow(meetreq[*79.212.letRandom]);
+  networkip=[command.internal.networkAssignIP];
   networkport=assignCustom(meetreq[=>199999,=<255575]);
   }
 
