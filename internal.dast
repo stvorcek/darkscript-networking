@@ -1,0 +1,11 @@
+##
+
+import DarkScript.Internal.Command:protected
+
+whilst.use{
+  commandUse=command.internal.netwoekAssignIP;
+}
+then{
+  assignIP="localhost:ip";
+  IPExample="79.255.123.456"
+}
